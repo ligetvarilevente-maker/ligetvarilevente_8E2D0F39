@@ -36,9 +36,3 @@ A megvalósításhoz főként  a HTML CSS és JS használnám mert ezeket ismere
 ## Téma
 
 A téma egy telefon webáruház lenne ahol lehet vásárolni telefonokat a nagyobb márkáktól.
-
-
-
-
-
-

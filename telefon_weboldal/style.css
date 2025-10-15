@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  min-height: 200vh;
+  background: radial-gradient(circle at top, #e0aaff, #4b0082 50%, #000000 70%),
+              radial-gradient(circle at bottom, #e69b9b, #000000 60%);
+  background-blend-mode: screen;
+  background-attachment: fixed; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
+}
+
+h1{
+    text-align: center;
+    font-style: italic;
+}
+
+.oldalsav {
+  position: fixed;              
+  top: 100px;                   
+  left: 20px;                  
+  width: 180px;
+  background-color: #f7edd2;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;                
+}
+
+
+.oldalsav a {
+  padding: 12px 15px;
+  text-decoration: none;
+  color: black;
+  border-left: 4px solid transparent;
+  transition: all 0.2s;
+  border-radius: 10px;
+}
+
+.oldalsav a:hover {
+  background-color: #ec1a1aab;
+  color: white;
+}
+#leiras{
+  max-width: 700px;
+  margin: 40px auto;
+  background: #f7edd2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+#leiras h2 {
+  text-align: center;
+  color: #333;
+}
+#leiras p {
+  text-align: justify;
+  line-height: 1.6;
+}
+
+.intro {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #f7edd2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.intro h2 {
+  text-align: center;
+  color: #333;
+}
+
+.intro p {
+  text-align: justify;
+  line-height: 1.6;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+  margin: 40px auto;
+}
+
+
+.brand-section {
+  width: 100%;
+  max-width: 1200px;
+}
+
+
+.brand-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #222;
+  font-style: italic;
+}
+
+
+.brand-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  justify-items: center;
+}
+
+
+.egytelefon {
+  background: #f7edd2;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s;
+  width: 250px;
+}
+
+.egytelefon:hover {
+  transform: scale(1.05);
+}
+
+.egytelefon img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+#kosar{
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 250px;
+  background: #f7edd2;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  z-index: 1000;
+}
+
+
